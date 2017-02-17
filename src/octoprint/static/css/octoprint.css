@@ -301,6 +301,7 @@ input[type="button"].btn-block {
 }
 .btn-inverse {
   color: #ffffff;
+  width: 100%;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #080808;
   background-image: -moz-linear-gradient(top, #0d0d0d, #000000);
