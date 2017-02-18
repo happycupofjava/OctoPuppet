@@ -742,7 +742,7 @@ h5,
 h6 {
   margin: 10px 0;
   font-family: inherit;
-  font-weight: 300;
+  font-weight: bold;
   line-height: 20px;
   color: #080808;
   text-rendering: optimizelegibility;
@@ -5188,17 +5188,19 @@ input[type="submit"].btn.btn-mini {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000000;
+  background-color: #020202;
 }
 
 .modal-backdrop.fade {
-  opacity: 0;
+  opacity: 80;
+  background-color: #fff;
 }
 
 .modal-backdrop,
 .modal-backdrop.fade.in {
-  opacity: 0.8;
+  opacity: 80;
   filter: alpha(opacity=80);
+  background-color: #020202;
 }
 
 .modal {
@@ -5238,7 +5240,7 @@ input[type="submit"].btn.btn-mini {
 
 .modal-header {
   padding: 9px 15px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .modal-header .close {
@@ -5246,8 +5248,9 @@ input[type="submit"].btn.btn-mini {
 }
 
 .modal-header h3 {
-  margin: 0;
-  line-height: 30px;
+  margin: auto;
+  line-height: 40px;
+  font-weight: bold;
 }
 
 .modal-body {
@@ -6784,13 +6787,9 @@ a.thumbnail:hover {
           border-radius: 0;
 }
 
-.modal-header {
-  border-bottom: none;
-}
-
 .modal-footer {
   background-color: transparent;
-  border-top: none;
+  border-top: 1px solid #e5e5e5;
 }
 
 .popover {
