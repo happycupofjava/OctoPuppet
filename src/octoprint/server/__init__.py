@@ -1025,6 +1025,7 @@ class Server(object):
 
 		js_libs = [
 			"js/lib/jquery/jquery.min.js" if minify else "js/lib/jquery/jquery.js",
+			"js/lib/bug/bug.min.js" if minify else "js/lib/bug/bug.js",
 			"js/lib/modernizr.custom.js",
 			"js/lib/lodash.min.js",
 			"js/lib/sprintf.min.js",
