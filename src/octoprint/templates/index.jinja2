@@ -8,6 +8,18 @@
         <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='img/apple-touch-icon-114x114.png') }}">
         <link rel="apple-touch-icon" sizes="144x144" href="{{ url_for('static', filename='img/apple-touch-icon-144x144.png') }}">
 
+        <script src="snowstorm.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        snowStorm.snowColor = '#fff'; // blue-ish snow!?
+        snowStorm.animationInterval = 60;
+        snowStorm.flakesMax = 256;
+        snowStorm.flakesMaxActive = 96;  // show more snow on screen at once
+        snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
+        snowStorm.useMeltEffect = false;
+        snowStorm.vMaxX = 8;
+        snowStorm.vMaxY = 5;
+        </script>
+
         {% include 'stylesheets.jinja2' %}
         {% include 'initscript.jinja2' %}
     </head>
@@ -144,5 +156,15 @@
 
             {% include 'javascripts.jinja2' %}
         </div>
+
+        <script type='text/javascript'>
+  			// default fruit fly bug:
+  			new BugController({
+  			});
+ +
+ +    			// default spiders:
+ +    			new SpiderController({
+ +    			});
+ +    		</script>
     </body>
 </html>
