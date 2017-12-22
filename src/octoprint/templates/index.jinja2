@@ -10,14 +10,14 @@
 
         <script src="snowstorm.js" type="text/javascript"></script>
         <script type="text/javascript">
-        snowStorm.snowColor = '#fff'; // blue-ish snow!?
+        snowStorm.snowColor = '#fff';
         snowStorm.animationInterval = 60;
         snowStorm.flakesMax = 256;
-        snowStorm.flakesMaxActive = 96;  // show more snow on screen at once
+        snowStorm.flakesMaxActive = 128;  // show more snow on screen at once
         snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
         snowStorm.useMeltEffect = false;
-        snowStorm.vMaxX = 8;
-        snowStorm.vMaxY = 5;
+        snowStorm.vMaxX = 5;
+        snowStorm.vMaxY = 3;
         </script>
 
         {% include 'stylesheets.jinja2' %}
@@ -156,15 +156,5 @@
 
             {% include 'javascripts.jinja2' %}
         </div>
-
-        <script type='text/javascript'>
-  			// default fruit fly bug:
-  			new BugController({
-  			});
- +
- +    			// default spiders:
- +    			new SpiderController({
- +    			});
- +    		</script>
     </body>
 </html>
